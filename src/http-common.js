@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://localhost:44392/',
+  baseURL: 'https://truehomewebapi.azurewebsites.net/',
   headers: {
     "Content-type": "application/json"
   }
